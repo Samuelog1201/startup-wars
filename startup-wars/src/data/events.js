@@ -1,10 +1,28 @@
 const eventos = [
-  "Boom tecnológico: todas las startups ganan +2 tecnología",
-  "Crisis económica: todas las startups pierden 1 inversión",
-  "Crecimiento viral: gana +3 usuarios",
-  "Nueva inversión: gana +2 inversión",
-  "Falla del servidor: pierde 1 tecnología",
-  "Tendencia del mercado: gana +2 usuarios"
+  {
+    titulo: "Boom tecnológico",
+    efecto: "Todas las startups ganan +1 tecnología"
+  },
+  {
+    titulo: "Tendencia viral",
+    efecto: "Todas las startups ganan +2 usuarios"
+  },
+  {
+    titulo: "Interés de inversionistas",
+    efecto: "Todas las startups ganan +1 inversión"
+  },
+  {
+    titulo: "Crisis económica",
+    efecto: "Todas las startups pierden 1 inversión"
+  },
+  {
+    titulo: "Caída del servidor",
+    efecto: "Todas las startups pierden 1 tecnología"
+  },
+  {
+    titulo: "Mercado saturado",
+    efecto: "Todas las startups pierden 1 usuario"
+  }
 ];
 
 export default eventos;
