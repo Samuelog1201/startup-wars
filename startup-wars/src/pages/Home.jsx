@@ -1,15 +1,24 @@
 function Home({ iniciarJuego }) {
   return (
-    <div style={{ padding: "20px", textAlign: "center" }}>
-      <h1>Startup Wars</h1>
+    <div className="home-container">
 
-      <p>
-        Compite con otras startups para construir la empresa más exitosa.
-      </p>
+      <div className="home-card">
 
-      <button onClick={iniciarJuego}>
-        Iniciar juego
-      </button>
+        <h1>Startup Wars</h1>
+
+        <p className="home-description">
+          Compite con otras startups para construir la empresa más exitosa.
+        </p>
+
+        <button
+          className="primary-button"
+          onClick={iniciarJuego}
+        >
+          Iniciar juego
+        </button>
+
+      </div>
+
     </div>
   );
 }
